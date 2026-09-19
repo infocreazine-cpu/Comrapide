@@ -7,3 +7,14 @@
 .work-cards .textile img{object-position:left top!important;transform:scale(1.35);transform-origin:left top}
 .work-cards .print img{object-position:left top!important;transform:scale(1.18);transform-origin:left top}
 @media(max-width:800px){.work-cards .visual{height:260px!important}.work-cards .visual img{height:100%!important;min-height:0!important}.work-cards .textile img{transform:scale(1.45)}.work-cards .print img{transform:scale(1.3)}}
+
+/* Approved 3-panel visual direction */
+.work-cards{grid-template-columns:1fr!important;gap:16px!important;min-height:0!important}
+.work-cards .visual{height:auto!important;aspect-ratio:16/7!important;border-radius:12px!important;border:0!important;overflow:hidden!important}
+.work-cards .visual img{transform:none!important;object-fit:cover!important;width:100%!important;height:100%!important}
+.work-cards .vehicle img{object-position:center 38%!important}
+.work-cards .facade img{object-position:center 35%!important}
+.work-cards .textile img{object-position:center 42%!important}
+.work-cards .visual span{left:0!important;bottom:0!important;margin:0!important;padding:16px 24px!important;font-size:clamp(18px,3vw,28px)!important;font-weight:900!important;letter-spacing:1.5px!important;background:linear-gradient(90deg,rgba(10,10,10,.96) 0%,rgba(10,10,10,.86) 82%,rgba(10,10,10,0) 100%)!important}
+.work-cards .visual span:after{content:"›";color:#8bd400;font-size:1.5em;margin-left:14px}
+@media(max-width:800px){.work-cards{gap:12px!important}.work-cards .visual{height:auto!important;aspect-ratio:1.65/1!important}.work-cards .visual span{padding:13px 16px!important;font-size:18px!important}}
