@@ -42,3 +42,10 @@
 .project figcaption span{display:block;margin-top:7px;color:#c8c8c8;font-size:15px}
 .project figcaption b:after{content:"";display:block;width:42px;height:4px;background:#8bd400;margin-top:12px}
 @media(max-width:800px){#services,#realisations,#apropos,#devis{scroll-margin-top:70px}.projects{padding:75px 12px}.projects h1,.projects h2{letter-spacing:-2px;padding:0 12px}.projects .kicker,.projects-intro{margin-left:12px;margin-right:12px}.projects-intro{font-size:16px;margin-bottom:30px}.project-grid{grid-template-columns:1fr;gap:12px}.project{min-height:0;aspect-ratio:1.18/1}.project figcaption{padding:55px 20px 18px}.project figcaption b{font-size:24px}.project figcaption span{font-size:14px}}
+
+
+/* Logo officiel */
+.logo{display:inline-flex;align-items:center;font-size:0;letter-spacing:0}
+.logo img{display:block;width:172px;height:auto}
+footer .logo img{width:185px}
+@media(max-width:800px){.logo img{width:154px}footer .logo img{width:175px}}
