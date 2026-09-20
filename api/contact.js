@@ -6,7 +6,7 @@ export default async function handler(req,res){
   if(!process.env.RESEND_API_KEY) return res.status(500).json({error:'Configuration email manquante'});
   const response=await fetch('https://api.resend.com/emails',{method:'POST',headers:{Authorization:'Bearer '+process.env.RESEND_API_KEY,'Content-Type':'application/json'},body:JSON.stringify({
     from:'COMRAPIDE Site <site@comrapide.fr>',
-    to:['info@comrapide.fr'],
+    to:['contact@comrapide.fr'],
     reply_to:String(email),
     subject:'Nouvelle demande de devis — '+String(project),
     html:`<h2>Nouvelle demande de devis</h2><p><strong>Nom / Société :</strong> ${esc(name)}</p><p><strong>E-mail :</strong> ${esc(email)}</p><p><strong>Projet :</strong> ${esc(project)}</p><p><strong>Message :</strong><br>${esc(message).replace(/\n/g,'<br>')}</p>`
