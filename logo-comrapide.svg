@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 96" role="img" aria-labelledby="title">
+<title id="title">COMRAPIDE</title>
+<g transform="skewX(-8)">
+<text x="12" y="56" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="45" font-weight="900" font-style="italic" letter-spacing="-2">COM</text>
+<text x="112" y="56" fill="#8bd400" font-family="Arial,Helvetica,sans-serif" font-size="45" font-weight="900" font-style="italic" letter-spacing="-2">RAPIDE</text>
+<rect x="112" y="70" width="142" height="7" fill="#8bd400"/>
+<rect x="265" y="70" width="31" height="7" fill="#0066ff"/>
+</g>
+</svg>
